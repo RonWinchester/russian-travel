@@ -1,0 +1,4 @@
+.alignment {
+  width: calc(100% - 2 * 148px);
+  margin: 0 auto;
+}

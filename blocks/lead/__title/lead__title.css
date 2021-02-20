@@ -5,5 +5,5 @@
   text-align: center;
   margin:0;
   justify-self: center;
-  width: calc(100% - 2 * 132px);
+  max-width: calc(100% - 2 * 132px);
 }

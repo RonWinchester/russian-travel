@@ -1,6 +1,5 @@
 .lead {
-  margin: 0 auto;
   margin-top: 56px;
   display: grid;
-  width: calc(100% - 2 * 148px);
+
 }
