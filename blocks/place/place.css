@@ -2,4 +2,9 @@
   display:grid;
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
+
+}
+
+.place:not(:first-child) {
+  margin-top: 80px;
 }
