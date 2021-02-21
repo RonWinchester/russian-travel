@@ -2,3 +2,17 @@
   max-width: calc(100% - 48px*2);
   margin: 0 auto;
 }
+
+@media screen and (max-width:1023px) {
+  .wrapper {
+    max-width: calc(100% - 24px*2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .wrapper {
+    max-width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+}
