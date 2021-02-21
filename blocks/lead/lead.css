@@ -1,5 +1,5 @@
 .lead {
   margin-top: 56px;
   display: grid;
-
+  box-sizing: border-box;
 }
