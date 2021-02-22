@@ -13,10 +13,24 @@
 @media screen and (max-width:1023px) {
   .place__paragraph {
     font-size: 16px;
+    line-height: 26px;
   }
 
   .place__paragraph:not(:first-child) {
     margin-top: 25px;
   }
 }
+
+@media screen and (max-width:767px) {
+  .place__paragraph {
+    max-width: calc(100% - 2 * 16px);
+    margin: 0 auto;
+    line-height: 26px;
+  }
+
+  .place__paragraph:not(:first-child) {
+    margin-top: 25px;
+  }
+}
+
 
