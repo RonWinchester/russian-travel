@@ -2,3 +2,15 @@
   margin-top: 92px;
   box-sizing: border-box;
 }
+
+@media  screen and(max-width:1023px) {
+  .place {
+    margin-top: 88px;
+  }
+}
+
+@media  screen and(max-width:767px) {
+  .place {
+    margin-top: 64px;
+  }
+}

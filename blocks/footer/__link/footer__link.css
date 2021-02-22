@@ -9,3 +9,16 @@
 .footer__link:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin: 0;
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .footer__link:first-child {
+    margin: 0;
+  }
+}
