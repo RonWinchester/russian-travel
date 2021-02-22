@@ -25,10 +25,6 @@
   .place:not(:first-child) {
     margin-top: 73px;
   }
-
-  .place:first-child {
-    min-height: 581px;
-  }
 }
 
 @media screen and (max-width:767px) {
@@ -43,11 +39,4 @@
     margin-top: 50px;
   }
 
-  .place:first-child {
-    min-height: 1042px;
-  }
-
-  .place:nth-last-child(2) {
-    min-height: 964px;
-  }
 }

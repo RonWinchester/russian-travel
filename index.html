@@ -11,7 +11,7 @@
     <header class="header wrapper">
       <img class="logo logo_place_header" alt="логотип" src="./images/header-logo.svg">
       <ul class="lang">
-        <li class="lang__item"><a class="link" href="#" target='_blank'>Ru</a></li>
+        <li class="lang__item lang__item_active"><a class="link" href="#" target='_blank'>Ru</a></li>
         <li class="lang__item"><a class="link" href="#" target='_blank'>En</a></li>
       </ul>
     </header>
@@ -42,27 +42,27 @@
           усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <ul class="intro-list">
-          <li class="intro-list__item">Часовых поясов 11</li>
-          <li class="intro-list__item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro-list__item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro-list__item">Природных заповедников 105</li>
-          <li class="intro-list__item">Аэропортов 241</li>
+        <ul class="intro__list">
+          <li class="intro__list-item">Часовых поясов <span class="intro__list-number">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list-number">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list-number">241</span></li>
         </ul>
       </section>
-      <section class="photo-grid-items wrapper">
-        <img class="photo-grid-item" alt="фото из поезда" src="./images/photo-grid-train.jpg">
-        <img class="photo-grid-item" alt="горы" src="./images/photo-grid-atharva-tulsi.jpg">
-        <img class="photo-grid-item" alt="туман над полем" src="./images/photo-grid-tuman.jpg">
-        <img class="photo-grid-item" alt="лес в сочи" src="./images/photo-grid-sochi.jpg">
-        <img class="photo-grid-item" alt="ледяное озеро" src="./images/photo-grid-arisa.jpg">
-        <img class="photo-grid-item" alt="берег байкала" src="./images/photo-grid-baikal.jpg">
-        <img class="photo-grid-item" alt="эльбрус" src="./images/photo-grid-elbrus.jpg">
-        <img class="photo-grid-item" alt="волнорезы" src="./images/photo-grid-kondratiev.jpg">
-        <img class="photo-grid-item" alt="камчатка" src="./images/photo-grid-kamchatka-1.jpg">
-        <img class="photo-grid-item" alt="гора на камчатке" src="./images/photo-grid-kamchatka-2.jpg">
-        <img class="photo-grid-item" alt="обрыв у байкала" src="./images/photo-grid-baikal-2.jpg">
-        <img class="photo-grid-item" alt="туман в горах" src="./images/photo-grid-ergaki.jpg">
+      <section class="photo-grid wrapper">
+        <img class="photo-grid__item" alt="фото из поезда" src="./images/photo-grid-train.jpg">
+        <img class="photo-grid__item" alt="горы" src="./images/photo-grid-atharva-tulsi.jpg">
+        <img class="photo-grid__item" alt="туман над полем" src="./images/photo-grid-tuman.jpg">
+        <img class="photo-grid__item" alt="лес в сочи" src="./images/photo-grid-sochi.jpg">
+        <img class="photo-grid__item" alt="ледяное озеро" src="./images/photo-grid-arisa.jpg">
+        <img class="photo-grid__item" alt="берег байкала" src="./images/photo-grid-baikal.jpg">
+        <img class="photo-grid__item" alt="эльбрус" src="./images/photo-grid-elbrus.jpg">
+        <img class="photo-grid__item" alt="волнорезы" src="./images/photo-grid-kondratiev.jpg">
+        <img class="photo-grid__item" alt="камчатка" src="./images/photo-grid-kamchatka-1.jpg">
+        <img class="photo-grid__item" alt="гора на камчатке" src="./images/photo-grid-kamchatka-2.jpg">
+        <img class="photo-grid__item" alt="обрыв у байкала" src="./images/photo-grid-baikal-2.jpg">
+        <img class="photo-grid__item" alt="туман в горах" src="./images/photo-grid-ergaki.jpg">
       </section>
       <section class="places alignment">
         <article class="place">
@@ -151,12 +151,11 @@
           </div>
         </article>
       </section>
-    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target='_blank' class="link">
       <section class="cover">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target='_blank' class="link cover__link"></a>
       </section>
-    </a>
     </main>
     <footer class="footer wrapper">
       <nav>

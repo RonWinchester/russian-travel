@@ -7,8 +7,6 @@
 
 .lang__item:first-child {
   margin-right: 18px;
-  text-decoration: underline;
-
 }
 
 @media screen and (max-width:767px) {
