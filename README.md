@@ -5,4 +5,6 @@
 В проекте использовались:
 1. Медиазапросы
 2. Верстка и оформление структуры по БЭМ
-3. HTML, CSS
+3. HTML, CSS  
+
+ссылка на проект: https://ronwinchester.github.io/russian-travel/
